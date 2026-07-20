@@ -1,109 +1,106 @@
-# 🚀 Janhavi Mali - Developer & Software Tester Portfolio
+<!-- 🤎 BROWN + SAND AESTHETIC GITHUB README 🤎 -->
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-ff5722?style=for-the-badge&logo=vercel&logoColor=white)](https://practiceportfolio1100-1643.vercel.app/)
-[![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.oracle.com/java/)
-[![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)](https://www.selenium.dev/)
-[![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)](https://spring.io/projects/spring-boot)
-[![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)](https://www.postman.com/)
-[![JIRA](https://img.shields.io/badge/JIRA-0052CC?style=for-the-badge&logo=jira&logoColor=white)](https://www.atlassian.com/software/jira)
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=8B5A2B&height=220&section=header&text=Janhavi%20Anil%20Mali&fontSize=40&fontColor=FFFFFF&animation=fadeIn&desc=Software%20Tester%20•%20Full%20Stack%20Developer&descAlignY=70&backgroundColor=F5DEB3" />
+</p>
 
-Welcome to my personal portfolio! This web application showcases my skills, experience, projects, and expertise in **Manual Testing, API Automation, Selenium, Java Full-Stack Development, and AI-assisted engineering**.
+<h3 align="center" style="color:#5D4037;">
+✨ Software Tester & Full Stack Java Developer | PG-DAC (C-DAC) Graduate | AI Tech Enthusiast ✨
+</h3>
 
----
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?color=6D4C41&center=true&vCenter=true&lines=Software+Tester+%26+QA+Engineer;Manual+%26+API+Testing+(Selenium);Java+%26+Spring+Boot+Developer;AI-Assisted+Engineering" />
+</p>
 
-## 🌟 Live Demo
-
-🌐 **Website URL:** [https://practiceportfolio1100-1643.vercel.app/](https://practiceportfolio1100-1643.vercel.app/)
-
----
-
-## 👤 About Me
-
-I am a **PG-DAC (C-DAC) Graduate** with hands-on experience in **Manual Testing, Functional & Regression Testing, API Testing (Postman), Selenium Automation, TestNG, SQL Validation, and STLC/SDLC methodologies**, combined with strong **Java & Spring Boot development** capabilities.
-
-- 📍 **Location:** Pune, Maharashtra - 411045
-- 📞 **Phone:** [+91-7350151961](tel:+917350151961)
-- 📧 **Email:** [malijanvi54@gmail.com](mailto:malijanvi54@gmail.com)
-- 💼 **LinkedIn:** [Janhavi Mali](https://www.linkedin.com/in/janhavi-mali-a4085320b)
-- 🐙 **GitHub:** [MALIJANHAVIANIL](https://github.com/MALIJANHAVIANIL)
+<p align="center">
+  <!-- Contribution Snake Animation -->
+  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" />
+</p>
 
 ---
 
-## ✨ Key Portfolio Features
+## 🤍 About Me
 
-- **📱 Fully Responsive Design:** Mobile-first, fluid layout optimized across desktop, tablet, and smartphone screens.
-- **🌙 Seamless Dark / Light Mode:** Instant theme toggle with persistent user preference memory (`localStorage`).
-- **🤖 Interactive AI Assistant Terminal:** Built-in dynamic diagnostic terminal allowing visitors to trigger instant AI queries (`janhavi-ai-assistant --v2.6`).
-- **🎨 Modern Cybernetic Aesthetics:** Glassmorphism accents, neon shadow glows, floating tech badges, and smooth scroll animations.
-- **📩 Direct Contact Integration:** Functional contact form powered by FormSubmit for direct email inquiries.
+🌾 I'm **Janhavi Anil Mali**, a **PG-DAC Graduate** & **Software Tester / Developer** with hands-on expertise in:
+- **Manual Testing, Functional & Regression Testing, API Testing (Postman), Selenium Automation, and TestNG**.
+- **Core Java, Spring Boot, Spring MVC, Hibernate, JDBC, and SQL Databases**.
+- **Agile SDLC/STLC Methodologies, JIRA Defect Lifecycles, and AI-Assisted Engineering**.
+
+🎯 **Career Goal:** Seeking a Software Tester / QA Engineer role to contribute to building reliable, high-quality applications.  
+🚀 **Live Portfolio:** [https://practiceportfolio1100-1643.vercel.app/](https://practiceportfolio1100-1643.vercel.app/)
 
 ---
 
-## 🛠️ Tech Stack & Skills
+## 🛠️ Tech Stack (Brown Edition)
 
 ### 🧪 Software Testing & QA
-`Manual Testing` • `Functional Testing` • `Regression Testing` • `Integration Testing` • `Smoke & Sanity Testing` • `API Testing` • `Test Case Design` • `Defect Tracking` • `STLC & SDLC`
+![Manual Testing](https://img.shields.io/badge/Manual_Testing-8B5A2B?style=for-the-badge&logo=pytest&logoColor=white)
+![Selenium](https://img.shields.io/badge/Selenium-A47148?style=for-the-badge&logo=selenium&logoColor=white)
+![TestNG](https://img.shields.io/badge/TestNG-8B5A2B?style=for-the-badge&logo=testinglibrary&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-A47148?style=for-the-badge&logo=postman&logoColor=white)
+![JIRA](https://img.shields.io/badge/JIRA-8B5A2B?style=for-the-badge&logo=jira&logoColor=white)
 
-### 🔧 Testing Tools & Infrastructure
-`Selenium WebDriver` • `TestNG` • `Postman` • `JIRA` • `Git / GitHub` • `Maven` • `AWS Basics`
+### 💻 Languages & Frameworks
+![Java](https://img.shields.io/badge/Java-8B5A2B?style=for-the-badge&logo=java&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-A47148?style=for-the-badge&logo=springboot&logoColor=white)
+![Hibernate](https://img.shields.io/badge/Hibernate-8B5A2B?style=for-the-badge&logo=hibernate&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-A47148?style=for-the-badge&logo=csharp&logoColor=white)
+![C++](https://img.shields.io/badge/C++-8B5A2B?style=for-the-badge&logo=cplusplus&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-A47148?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-8B5A2B?style=for-the-badge&logo=css3&logoColor=white)
 
-### 💻 Programming & Frameworks
-`Java` • `SQL` • `Spring Boot` • `Spring MVC` • `Hibernate` • `JDBC` • `RESTful APIs` • `HTML5` • `CSS3` • `MySQL` • `SQL Server`
+### 🗄️ Databases
+![MySQL](https://img.shields.io/badge/MySQL-8B5A2B?style=for-the-badge&logo=mysql&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL_Server-A47148?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 
-### 🤖 AI Tools & Intelligence
-`ChatGPT` • `Claude AI` • `GitHub Copilot` • `Prompt Engineering` • `Cursor IDE` • `AI Test Generation`
+### ⚙️ Tools & AI
+![Git](https://img.shields.io/badge/Git-8B5A2B?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-A47148?style=for-the-badge&logo=github&logoColor=white)
+![ChatGPT](https://img.shields.io/badge/ChatGPT-8B5A2B?style=for-the-badge&logo=openai&logoColor=white)
+![Claude AI](https://img.shields.io/badge/Claude_AI-A47148?style=for-the-badge&logo=anthropic&logoColor=white)
 
 ---
 
 ## 📂 Featured Projects
 
-### 1️⃣ CareerNexus
-- **Tech Stack:** Java, Spring Boot, REST APIs, MySQL, Postman
-- **Description:** Career networking & recruitment portal connecting job seekers with recruiters.
-- **QA Highlights:** Designed RESTful endpoints, conducted full API test suites via Postman, and performed database assertions in MySQL.
-
-### 2️⃣ Quiz Application
-- **Tech Stack:** Java, JDBC, MySQL, JIRA | [Repository](https://github.com/dhanu123-lang/QuizApplication)
-- **Description:** Interactive quiz management system handling student packages, questions, options, and automated score evaluations.
-- **QA Highlights:** Managed defect lifecycles and feature branches using JIRA (`JIRA-111`, `JIRA-115`), pull requests, and verified database table schema integrity (`MiniProject_Database_Tables`).
-
-### 3️⃣ Banking Application
-- **Tech Stack:** Java, JDBC, MySQL
-- **Description:** Secure banking management application featuring account management, money transfers, and transaction tracking.
-- **QA Highlights:** Executed functional test scenarios for financial calculations, account balance queries, and database data validation.
+- 📁 **CareerNexus:** Career networking & recruitment portal built with Java, Spring Boot, REST APIs, MySQL, and Postman.
+- 📝 **Quiz Application:** Java & MySQL quiz system managed via JIRA (`JIRA-111`, `JIRA-115`) with database schema testing.
+- 💳 **Banking Application:** Online banking portal with financial transaction logic, balance assertions, and database validation.
 
 ---
 
-## 🎓 Education & Certifications
+## 📊 GitHub Stats
 
-### Education
-- 🎓 **PG-DAC (Post Graduate Diploma in Advanced Computing)**  
-  *Centre for Development of Advanced Computing (C-DAC), Nashik, India* | **Aug 2025 – Feb 2026**
-- 🎓 **B.Tech in Electronics & Telecommunication**  
-  *R. C. Patel Institute of Technology* | **Sept 2020 – May 2024** | **CGPA: 7.04/10**
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=MALIJANHAVIANIL&show_icons=true&theme=gruvbox_light&hide_border=true" />
+</p>
 
-### Certifications
-- 📜 **Java Full Stack Development** – *Symbiosis Skills & Professional University*
-- 📜 **AI Tools & ChatGPT** – *be10x*
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MALIJANHAVIANIL&theme=gruvbox_light&hide_border=true" />
+</p>
 
 ---
 
-## 🚀 How to Run Locally
+## 🤝 Connect With Me
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/MALIJANHAVIANIL/portfolio.git
-   cd portfolio
-   ```
-
-2. **Run using PowerShell local script:**
-   ```powershell
-   powershell -ExecutionPolicy Bypass -File .\server.ps1
-   ```
-
-3. **Open in Browser:**
-   Navigate to `http://localhost:8082/`
+<p align="center">
+  <a href="https://www.linkedin.com/in/janhavi-mali-a4085320b" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-8B5A2B?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:malijanvi54@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-A47148?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="tel:+917350151961">
+    <img src="https://img.shields.io/badge/Phone-+91--7350151961-8B5A2B?style=for-the-badge&logo=whatsapp&logoColor=white" />
+  </a>
+</p>
 
 ---
 
-*© 2026 Janhavi Mali. All Rights Reserved.*
+<p align="center" style="color:#6D4C41;">
+🤎 <i>"Ensure Quality. Build Steadily. Deliver Excellence."</i> 🕊️
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=8B5A2B&height=120&section=footer&backgroundColor=F5DEB3" />
+</p>
