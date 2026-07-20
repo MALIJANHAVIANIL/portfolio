@@ -175,6 +175,9 @@
 
     <!-- Hero Section -->
     <section id="home" class="pt-32 pb-20 md:pt-40 md:pb-32 min-h-screen flex items-center bg-slate-50 dark:bg-brand-darker transition-colors duration-300 relative overflow-hidden">
+        <!-- Digital Interactive Matrix Canvas -->
+        <canvas id="matrix-canvas" class="absolute inset-0 w-full h-full opacity-20 pointer-events-none z-0"></canvas>
+        
         <!-- Abstract background blobs -->
         <div class="absolute top-20 left-10 w-64 h-64 bg-brand-orange/10 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-pulse-slow dark:bg-brand-orange/20 dark:mix-blend-lighten"></div>
         <div class="absolute bottom-20 right-10 w-72 h-72 bg-brand-orange/10 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-pulse-slow dark:bg-brand-orange/10 dark:mix-blend-lighten" style="animation-delay: 2s;"></div>
@@ -200,6 +203,26 @@
                         <a href="https://github.com/MALIJANHAVIANIL/gitRepository" target="_blank" class="w-11 h-11 rounded-full border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-300 flex items-center justify-center hover:border-brand-orange hover:bg-brand-orange hover:text-white dark:hover:border-brand-orange transform hover:scale-110 transition-all duration-300 bg-white dark:bg-transparent shadow-sm"><i class="fab fa-github text-lg"></i></a>
                         <a href="https://www.linkedin.com/in/janhavi-mali-a4085320b" target="_blank" class="w-11 h-11 rounded-full border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-300 flex items-center justify-center hover:border-brand-orange hover:bg-brand-orange hover:text-white dark:hover:border-brand-orange transform hover:scale-110 transition-all duration-300 bg-white dark:bg-transparent shadow-sm"><i class="fab fa-linkedin-in text-lg"></i></a>
                         <a href="https://mail.google.com/mail/?view=cm&fs=1&to=malijanvi54@gmail.com" target="_blank" class="w-11 h-11 rounded-full border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-300 flex items-center justify-center hover:border-brand-orange hover:bg-brand-orange hover:text-white dark:hover:border-brand-orange transform hover:scale-110 transition-all duration-300 bg-white dark:bg-transparent shadow-sm"><i class="fas fa-envelope text-lg"></i></a>
+                    </div>
+                </div>
+
+                <!-- Digital Stats Counter Grid -->
+                <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-8 pt-6 border-t border-gray-200 dark:border-gray-800/80 text-center md:text-left">
+                    <div class="p-2 rounded-xl bg-white/50 dark:bg-white/5 backdrop-blur-sm border border-gray-100 dark:border-white/5">
+                        <h4 class="text-xl sm:text-2xl font-extrabold text-brand-orange font-heading">100+</h4>
+                        <p class="text-[11px] text-gray-500 dark:text-gray-400 font-medium">Test Scenarios</p>
+                    </div>
+                    <div class="p-2 rounded-xl bg-white/50 dark:bg-white/5 backdrop-blur-sm border border-gray-100 dark:border-white/5">
+                        <h4 class="text-xl sm:text-2xl font-extrabold text-brand-orange font-heading">99%</h4>
+                        <p class="text-[11px] text-gray-500 dark:text-gray-400 font-medium">API Test Coverage</p>
+                    </div>
+                    <div class="p-2 rounded-xl bg-white/50 dark:bg-white/5 backdrop-blur-sm border border-gray-100 dark:border-white/5">
+                        <h4 class="text-xl sm:text-2xl font-extrabold text-brand-orange font-heading">3+</h4>
+                        <p class="text-[11px] text-gray-500 dark:text-gray-400 font-medium">Live Projects</p>
+                    </div>
+                    <div class="p-2 rounded-xl bg-white/50 dark:bg-white/5 backdrop-blur-sm border border-gray-100 dark:border-white/5">
+                        <h4 class="text-xl sm:text-2xl font-extrabold text-brand-orange font-heading">PG-DAC</h4>
+                        <p class="text-[11px] text-gray-500 dark:text-gray-400 font-medium">C-DAC Graduate</p>
                     </div>
                 </div>
             </div>
@@ -369,11 +392,18 @@
     <section id="projects" class="py-20 bg-white dark:bg-brand-dark transition-colors duration-300 border-y border-gray-100 dark:border-white/5 relative">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <p class="text-brand-orange font-medium tracking-widest text-sm uppercase mb-2 text-center">Portfolio</p>
-            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 text-gray-900 dark:text-white transition-colors reveal">My <span class="text-brand-orange">Projects</span></h2>
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-6 text-gray-900 dark:text-white transition-colors reveal">My <span class="text-brand-orange">Projects</span></h2>
             
-            <div class="grid md:grid-cols-3 gap-8 lg:gap-8">
+            <!-- Interactive Project Filter Tabs -->
+            <div class="flex justify-center gap-3 mb-12 font-sans reveal">
+                <button onclick="filterProjects('all')" id="filter-all" class="project-filter-btn px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wider bg-brand-orange text-white shadow-md transition-all cursor-pointer">All Projects</button>
+                <button onclick="filterProjects('testing')" id="filter-testing" class="project-filter-btn px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wider bg-gray-200 dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-brand-orange/20 transition-all cursor-pointer">QA & Automation</button>
+                <button onclick="filterProjects('fullstack')" id="filter-fullstack" class="project-filter-btn px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wider bg-gray-200 dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-brand-orange/20 transition-all cursor-pointer">Full-Stack Java</button>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8 lg:gap-8" id="projects-grid">
                 <!-- Project 1: CareerNexus -->
-                <div class="bg-slate-50 dark:bg-[#0a0a0a] p-8 rounded-3xl border border-gray-200 dark:border-gray-800 hover:border-brand-orange/60 dark:hover:border-brand-orange/50 transition-all duration-300 group hover:-translate-y-2 hover:shadow-xl dark:hover:shadow-neon reveal relative overflow-hidden">
+                <div data-category="testing fullstack" class="project-card bg-slate-50 dark:bg-[#0a0a0a] p-8 rounded-3xl border border-gray-200 dark:border-gray-800 hover:border-brand-orange/60 dark:hover:border-brand-orange/50 transition-all duration-300 group hover:-translate-y-2 hover:shadow-xl dark:hover:shadow-neon reveal relative overflow-hidden">
                     <div class="absolute top-0 right-0 w-32 h-32 bg-brand-orange/5 rounded-bl-[100px] transition-all duration-500 group-hover:bg-brand-orange/10"></div>
                     
                     <h3 class="text-2xl font-bold mb-2 text-gray-900 dark:text-white group-hover:gradient-text transition-colors font-heading relative z-10">CareerNexus</h3>
@@ -386,7 +416,7 @@
                 </div>
 
                 <!-- Project 2: Quiz Application -->
-                <div class="bg-slate-50 dark:bg-[#0a0a0a] p-8 rounded-3xl border border-gray-200 dark:border-gray-800 hover:border-brand-orange/60 dark:hover:border-brand-orange/50 transition-all duration-300 group hover:-translate-y-2 hover:shadow-xl dark:hover:shadow-neon reveal relative overflow-hidden" style="transition-delay: 100ms;">
+                <div data-category="testing fullstack" class="project-card bg-slate-50 dark:bg-[#0a0a0a] p-8 rounded-3xl border border-gray-200 dark:border-gray-800 hover:border-brand-orange/60 dark:hover:border-brand-orange/50 transition-all duration-300 group hover:-translate-y-2 hover:shadow-xl dark:hover:shadow-neon reveal relative overflow-hidden" style="transition-delay: 100ms;">
                     <div class="absolute top-0 right-0 w-32 h-32 bg-brand-orange/5 rounded-bl-[100px] transition-all duration-500 group-hover:bg-brand-orange/10"></div>
                     
                     <h3 class="text-2xl font-bold mb-2 text-gray-900 dark:text-white group-hover:gradient-text transition-colors font-heading relative z-10 flex items-center justify-between">
@@ -403,7 +433,7 @@
                 </div>
 
                 <!-- Project 3: Banking Application -->
-                <div class="bg-slate-50 dark:bg-[#0a0a0a] p-8 rounded-3xl border border-gray-200 dark:border-gray-800 hover:border-brand-orange/60 dark:hover:border-brand-orange/50 transition-all duration-300 group hover:-translate-y-2 hover:shadow-xl dark:hover:shadow-neon reveal relative overflow-hidden" style="transition-delay: 200ms;">
+                <div data-category="fullstack testing" class="project-card bg-slate-50 dark:bg-[#0a0a0a] p-8 rounded-3xl border border-gray-200 dark:border-gray-800 hover:border-brand-orange/60 dark:hover:border-brand-orange/50 transition-all duration-300 group hover:-translate-y-2 hover:shadow-xl dark:hover:shadow-neon reveal relative overflow-hidden" style="transition-delay: 200ms;">
                     <div class="absolute top-0 right-0 w-32 h-32 bg-brand-orange/5 rounded-bl-[100px] transition-all duration-500 group-hover:bg-brand-orange/10"></div>
 
                     <h3 class="text-2xl font-bold mb-2 text-gray-900 dark:text-white group-hover:gradient-text transition-colors font-heading relative z-10">Banking Application</h3>
@@ -733,6 +763,71 @@
             setTimeout(() => {
                 output.innerHTML = responses[topic] || '> Ready for query...';
             }, 400);
+        }
+
+        // Project Filter Functionality
+        function filterProjects(category) {
+            const cards = document.querySelectorAll('.project-card');
+            const btns = document.querySelectorAll('.project-filter-btn');
+
+            btns.forEach(btn => {
+                btn.classList.remove('bg-brand-orange', 'text-white');
+                btn.classList.add('bg-gray-200', 'dark:bg-gray-800', 'text-gray-700', 'dark:text-gray-300');
+            });
+
+            const activeBtn = document.getElementById('filter-' + category);
+            if(activeBtn) {
+                activeBtn.classList.remove('bg-gray-200', 'dark:bg-gray-800', 'text-gray-700', 'dark:text-gray-300');
+                activeBtn.classList.add('bg-brand-orange', 'text-white');
+            }
+
+            cards.forEach(card => {
+                const cats = card.getAttribute('data-category');
+                if(category === 'all' || (cats && cats.includes(category))) {
+                    card.style.display = 'block';
+                    card.classList.add('animate-fade-in');
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+
+        // Digital Interactive Matrix Canvas Background
+        const canvas = document.getElementById('matrix-canvas');
+        if(canvas) {
+            const ctx = canvas.getContext('2d');
+            let width = canvas.width = canvas.offsetWidth;
+            let height = canvas.height = canvas.offsetHeight;
+
+            window.addEventListener('resize', () => {
+                width = canvas.width = canvas.offsetWidth;
+                height = canvas.height = canvas.offsetHeight;
+            });
+
+            const letters = '01QA_TESTING_JAVA_SPRING_SELENIUM_SQL';
+            const fontSize = 14;
+            const columns = Math.floor(width / fontSize);
+            const drops = Array(columns).fill(1);
+
+            function drawMatrix() {
+                ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
+                ctx.fillRect(0, 0, width, height);
+
+                ctx.fillStyle = '#ff5722';
+                ctx.font = fontSize + 'px monospace';
+
+                for (let i = 0; i < drops.length; i++) {
+                    const text = letters[Math.floor(Math.random() * letters.length)];
+                    ctx.fillText(text, i * fontSize, drops[i] * fontSize);
+
+                    if (drops[i] * fontSize > height && Math.random() > 0.975) {
+                        drops[i] = 0;
+                    }
+                    drops[i]++;
+                }
+            }
+
+            setInterval(drawMatrix, 50);
         }
     </script>
 </body>
