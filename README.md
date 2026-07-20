@@ -1,106 +1,37 @@
-<!-- 🤎 BROWN + SAND AESTHETIC GITHUB README 🤎 -->
+# Janhavi Mali - Developer & Software Tester Portfolio
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=8B5A2B&height=220&section=header&text=Janhavi%20Anil%20Mali&fontSize=40&fontColor=4E342E&animation=fadeIn&desc=Code%20•%20Test%20•%20Grow&descAlignY=70&backgroundColor=F5DEB3" />
-</p>
+Welcome to my personal developer & software tester portfolio repository! This project showcases my skills in Manual & API Testing, Selenium, TestNG, Java, Spring Boot, SQL, and featured projects including CareerNexus, Quiz Application, and Banking Application.
 
-<h3 align="center" style="color:#5D4037;">
-✨ Software Tester & Full Stack Java Developer | PG-DAC Graduate | Tech Enthusiast ✨
-</h3>
+## 🚀 Live Demo
+**[View Portfolio Live](https://practiceportfolio1100-1643.vercel.app/)**
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=6D4C41&center=true&vCenter=true&lines=Software+Tester+%26+QA+Engineer;Manual+%26+API+Testing+(Selenium);Java+%26+Spring+Boot+Developer;AI-Assisted+Engineering" />
-</p>
+## 📖 About
+I am a PG-DAC graduate from C-DAC Nashik skilled in Manual Testing, Functional Testing, Regression Testing, API Testing (Postman), Selenium Automation, TestNG, SQL, STLC/SDLC, and Full-Stack Java Development (Spring Boot, REST APIs).
 
-<p align="center">
-  <!-- Contribution Snake Animation -->
-  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" />
-</p>
+## ✨ Features
+- **Responsive Design:** Fully responsive layout optimized for desktop, tablet, and mobile devices.
+- **Dark/Light Mode:** Seamless theme toggling with user preference memory.
+- **Featured Projects:** Showcases **CareerNexus**, **Quiz Application**, and **Banking Application**.
+- **Interactive AI Assistant Terminal:** Built-in dynamic diagnostic terminal for instant queries.
+- **Digital Matrix Canvas:** Futuristic animated code & testing streams background.
 
----
+## 🛠️ Tech Stack
+- HTML5 & CSS3 (Tailwind CSS)
+- Vanilla JavaScript
+- FontAwesome Icons
+- Java & Spring Boot (Backend)
 
-## 🤍 About Me
+## 📂 Project Structure
+- `index.html` - Main HTML file containing portfolio sections & logic.
+- `janhavi.png.png` - Profile picture asset.
+- `server.ps1` - Local PowerShell HTTP server script (`http://localhost:8082/`).
 
-🌾 I'm **Janhavi Anil Mali**, a **PG-DAC Graduate** & **Software Tester / Developer** with strong expertise in:  
-- **Manual Testing, Functional & Regression Testing, API Testing (Postman), Selenium Automation, and TestNG**.  
-- **Core Java, Spring Boot, Spring MVC, Hibernate, JDBC, and SQL Databases**.  
-- **Agile SDLC/STLC Methodologies, JIRA Defect Lifecycles, and AI-Assisted Engineering**.
-
-🎯 Seeking a **Software Tester / QA Engineer** role to build reliable, high-quality applications.  
-🚀 **Live Portfolio:** [https://practiceportfolio1100-1643.vercel.app/](https://practiceportfolio1100-1643.vercel.app/)
-
----
-
-## 🛠️ Tech Stack (Brown Edition)
-
-### 🧪 Software Testing & QA
-![Manual Testing](https://img.shields.io/badge/Manual_Testing-8B5A2B?style=for-the-badge&logo=pytest&logoColor=white)
-![Selenium](https://img.shields.io/badge/Selenium-A47148?style=for-the-badge&logo=selenium&logoColor=white)
-![TestNG](https://img.shields.io/badge/TestNG-8B5A2B?style=for-the-badge&logo=testinglibrary&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-A47148?style=for-the-badge&logo=postman&logoColor=white)
-![JIRA](https://img.shields.io/badge/JIRA-8B5A2B?style=for-the-badge&logo=jira&logoColor=white)
-
-### 💻 Languages & Frameworks
-![Java](https://img.shields.io/badge/Java-8B5A2B?style=for-the-badge&logo=java&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-A47148?style=for-the-badge&logo=springboot&logoColor=white)
-![Hibernate](https://img.shields.io/badge/Hibernate-8B5A2B?style=for-the-badge&logo=hibernate&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-A47148?style=for-the-badge&logo=csharp&logoColor=white)
-![C++](https://img.shields.io/badge/C++-8B5A2B?style=for-the-badge&logo=cplusplus&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-A47148?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-8B5A2B?style=for-the-badge&logo=css3&logoColor=white)
-
-### 🗄️ Databases
-![MySQL](https://img.shields.io/badge/MySQL-8B5A2B?style=for-the-badge&logo=mysql&logoColor=white)
-![SQL Server](https://img.shields.io/badge/SQL_Server-A47148?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
-
-### ⚙️ Tools & AI
-![Git](https://img.shields.io/badge/Git-8B5A2B?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-A47148?style=for-the-badge&logo=github&logoColor=white)
-![ChatGPT](https://img.shields.io/badge/ChatGPT-8B5A2B?style=for-the-badge&logo=openai&logoColor=white)
-![Claude AI](https://img.shields.io/badge/Claude_AI-A47148?style=for-the-badge&logo=anthropic&logoColor=white)
+## 📧 Contact
+- **Phone:** +91-7350151961
+- **Email:** malijanvi54@gmail.com
+- **Location:** Pune, Maharashtra - 411045
+- **LinkedIn:** [Janhavi Mali](https://www.linkedin.com/in/janhavi-mali-a4085320b)
+- **GitHub:** [MALIJANHAVIANIL](https://github.com/MALIJANHAVIANIL)
 
 ---
-
-## 📂 Featured Projects
-
-- 📁 **CareerNexus:** Career networking & recruitment portal built with Java, Spring Boot, REST APIs, MySQL, and Postman.
-- 📝 **Quiz Application:** Java & MySQL quiz system managed via JIRA (`JIRA-111`, `JIRA-115`) with database schema testing.
-- 💳 **Banking Application:** Online banking portal with financial transaction logic, balance assertions, and database validation.
-
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MALIJANHAVIANIL&show_icons=true&theme=gruvbox_light&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MALIJANHAVIANIL&theme=gruvbox_light&hide_border=true" />
-</p>
-
----
-
-## 🤝 Connect With Me
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/janhavi-mali-a4085320b" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-8B5A2B?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="mailto:malijanvi54@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-A47148?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="tel:+917350151961">
-    <img src="https://img.shields.io/badge/Phone-+91--7350151961-8B5A2B?style=for-the-badge&logo=whatsapp&logoColor=white" />
-  </a>
-</p>
-
----
-
-<p align="center" style="color:#6D4C41;">
-🤎 <i>"Grow quietly. Build steadily. Fly freely."</i> 🕊️
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=8B5A2B&height=120&section=footer&backgroundColor=F5DEB3" />
-</p>
+*© 2026 Janhavi Mali. All Rights Reserved.*
